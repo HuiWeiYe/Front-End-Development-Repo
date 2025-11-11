@@ -1,0 +1,9 @@
+ul{list-style: none;}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-item{
+  border: 1px solid red;
+}

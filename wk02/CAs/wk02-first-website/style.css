@@ -1,0 +1,11 @@
+h1 {
+    background-color: blue;
+    padding: 10px;
+}
+h2 {
+    border: 5px dashed;
+    background-color: cyan;
+}
+img {
+    border: 10px solid red;
+}
