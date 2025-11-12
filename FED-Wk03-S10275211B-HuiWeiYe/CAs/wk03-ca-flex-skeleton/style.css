@@ -1,9 +1,36 @@
 ul{list-style: none;}
 
+html, body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 .flex-container{
   display: flex;
+  @media screen and (min-width: 576px) {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    height: 100%;
+  }
+
+  @media (min-width: 992px) {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    height: 100%;
+  }
 }
 
 .flex-item{
-  border: 1px solid red;
+  border: 1px solid #f96248;
+  background-color: #f96248;
+  font-size: 60px;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 50px 80px;
+  margin: 15px;
 }
